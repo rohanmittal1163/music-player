@@ -193,12 +193,12 @@ next.onclick = () => {
 	nextMusic();
 };
 audioPlayer.ontimeupdate = (e) => {
-	console.log(e);
 	const currentTime = e.target.currentTime;
 	const minutes = parseInt(currentTime / 60);
 	let seconds = parseInt(currentTime % 60);
 	seconds < 10 ? (seconds = `0${seconds}`) : (seconds = seconds);
 	current.innerText = `${minutes}:${seconds}`;
+	progressBar.style.width = `${(100 * currentTime) / audioPlayer.duration}%`;
 
 	audioPlayer.onloadeddata = (e) => {
 		const durationMin = parseInt(audioPlayer.duration / 60);
