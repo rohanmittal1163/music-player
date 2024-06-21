@@ -1,28 +1,30 @@
 let allMusic = [
 	{
-		name: 'laare choote',
-		artist: 'Ankur Tewari',
+		name: 'Lover',
+		artist: 'Diljit Dosanjh',
 		img: 'music-1',
 		src: 'music-1',
 	},
 	{
-		name: 'labon ko',
-		artist: 'pritam, KK',
+		name: 'Ve hanniyaan',
+		artist: 'Avvy Sra, Danny, and Sagar',
 		img: 'music-2',
 		src: 'music-2',
 	},
+
 	{
-		name: 'Ranjha',
-		artist: 'jasleen royal',
+		name: 'G.O.A.T',
+		artist: 'Diljit Dosanjh',
 		img: 'music-3',
 		src: 'music-3',
 	},
 	{
-		name: 'Deewane hum nhi hote',
-		artist: 'aditya yadav',
+		name: 'Ranjha',
+		artist: 'jasleen royal',
 		img: 'music-4',
 		src: 'music-4',
 	},
+
 	{
 		name: 'malang sajna',
 		artist: 'sachet tandon',
@@ -42,22 +44,46 @@ let allMusic = [
 		src: 'music-7',
 	},
 	{
-		name: 'choomantar',
-		artist: 'aditi singh sharma',
+		name: 'Janiye',
+		artist: 'Rashmeet Kaur & Vishal Mishra',
 		img: 'music-8',
 		src: 'music-8',
 	},
 	{
-		name: 'uska hi banana',
-		artist: ' Chirantann Bhatt',
+		name: 'Heeriye',
+		artist: 'Arijit Singh & Jasleen Royal',
 		img: 'music-9',
 		src: 'music-9',
 	},
 	{
-		name: 'bikhra',
-		artist: 'Rovalio & Abdul Hannan',
+		name: 'So High',
+		artist: 'Sidhu Moose Wala',
 		img: 'music-10',
 		src: 'music-10',
+	},
+	{
+		name: 'laare choote',
+		artist: 'Ankur Tewari',
+		img: 'music-11',
+		src: 'music-11',
+	},
+	{
+		name: 'choomantar',
+		artist: 'aditi singh sharma',
+		img: 'music-12',
+		src: 'music-12',
+	},
+	{
+		name: 'Sadqay',
+		artist: 'Aashir Wajahat',
+		img: 'music-13',
+		src: 'music-13',
+	},
+	{
+		name: 'bikhra',
+		artist: 'Rovalio & Abdul Hannan',
+		img: 'music-14',
+		src: 'music-14',
 	},
 ];
 const wrapper = document.querySelector('.wrapper');
@@ -156,9 +182,7 @@ function nextMusic() {
 
 function prevMusic() {
 	musicIndex--;
-	musicIndex === 0
-		? (musicIndex = allMusic.length)
-		: (musicIndex = musicIndex);
+	musicIndex === 0 ? (musicIndex = allMusic.length) : (musicIndex = musicIndex);
 	load(musicIndex);
 	playMusic();
 }
@@ -169,13 +193,11 @@ next.onclick = () => {
 	nextMusic();
 };
 audioPlayer.ontimeupdate = (e) => {
+	console.log(e);
 	const currentTime = e.target.currentTime;
 	const minutes = parseInt(currentTime / 60);
 	let seconds = parseInt(currentTime % 60);
 	seconds < 10 ? (seconds = `0${seconds}`) : (seconds = seconds);
-	const duration = e.target.duration;
-	let progressWidth = (currentTime / duration) * 100;
-	progressBar.style.width = `${progressWidth}%`;
 	current.innerText = `${minutes}:${seconds}`;
 
 	audioPlayer.onloadeddata = (e) => {
