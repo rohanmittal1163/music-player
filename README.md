@@ -7,6 +7,11 @@ use it wherenver you want wherever you want.<br>
 hope you will use it and liked it.
 
 # ⚜ DEMO -- https://audioplayer1163.netlify.app/
+
+
+https://github.com/rohanmittal1163/music-player/assets/97821844/3e4d85b4-93ad-45cc-9aee-afdde6454f13
+
+
 ![image](https://user-images.githubusercontent.com/97821844/232283537-8252613e-bb7f-47f6-b7e1-36c2910e50fa.png)
 ![image](https://user-images.githubusercontent.com/97821844/232283551-29c2bb02-a993-48c9-a7a7-dcee30a8ca03.png)
 ![image](https://user-images.githubusercontent.com/97821844/232283554-9eb631db-4201-435b-afdb-a3d619eff121.png)
