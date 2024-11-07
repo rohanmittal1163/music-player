@@ -2,90 +2,141 @@ let allMusic = [
 	{
 		name: 'Lover',
 		artist: 'Diljit Dosanjh',
-		img: 'music-1',
+		img: 'https://i1.sndcdn.com/artworks-ZNC9lCwqk7fPeQ8s-ZGVfAA-t500x500.png',
 		src: 'music-1',
 	},
 	{
 		name: 'Ve hanniyaan',
 		artist: 'Avvy Sra, Danny, and Sagar',
-		img: 'music-2',
+		img: 'https://c.saavncdn.com/367/Ve-Haaniyaan-Punjabi-2024-20240212220137-500x500.jpg',
 		src: 'music-2',
 	},
 
 	{
 		name: 'G.O.A.T',
 		artist: 'Diljit Dosanjh',
-		img: 'music-3',
+		img: 'https://images.genius.com/fe9fb4c565f1636fe82dfafc3d44da6a.720x900x1.jpg',
 		src: 'music-3',
 	},
 	{
 		name: 'Ranjha',
 		artist: 'jasleen royal',
-		img: 'music-4',
+		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8uSjI7KTsiETMTPIiVLlkP6HCt-RdafRfLw&s',
 		src: 'music-4',
 	},
 
 	{
 		name: 'malang sajna',
 		artist: 'sachet tandon',
-		img: 'music-5',
+		img: 'https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/80/f7/76/80f7760d-ab26-c17b-fe4f-ca4653af188e/8903431916303_cover.jpg/1200x1200bf-60.jpg',
 		src: 'music-5',
 	},
 	{
 		name: 'mera safar',
 		artist: 'iqlipse nove',
-		img: 'music-6',
+		img: 'https://cdns-images.dzcdn.net/images/cover/23736e1685ec89278a6e904a270a7aa6/1900x1900-000000-80-0-0.jpg',
 		src: 'music-6',
 	},
 	{
 		name: 'Mi amor',
 		artist: 'nova miller',
-		img: 'music-7',
+		img: 'https://c.saavncdn.com/800/Mi-Amor-Punjabi-2021-20211107115532-500x500.jpg',
 		src: 'music-7',
 	},
 	{
 		name: 'Janiye',
 		artist: 'Rashmeet Kaur & Vishal Mishra',
-		img: 'music-8',
+		img: 'https://i.scdn.co/image/ab67616d0000b2736624811ee1d8d7ccf5fadb80',
 		src: 'music-8',
 	},
 	{
 		name: 'Heeriye',
 		artist: 'Arijit Singh & Jasleen Royal',
-		img: 'music-9',
+		img: 'https://i.ytimg.com/vi/Qjd0eg-VqD8/maxresdefault.jpg',
 		src: 'music-9',
 	},
 	{
 		name: 'So High',
 		artist: 'Sidhu Moose Wala',
-		img: 'music-10',
+		img: 'https://c.saavncdn.com/544/So-High-Punjabi-2017-20220811172517-500x500.jpg',
 		src: 'music-10',
 	},
 	{
 		name: 'laare choote',
 		artist: 'Ankur Tewari',
-		img: 'music-11',
+		img: 'https://c.saavncdn.com/642/Laree-Choote-English-2021-20210326214034-500x500.jpg',
 		src: 'music-11',
 	},
 	{
 		name: 'choomantar',
 		artist: 'aditi singh sharma',
-		img: 'music-12',
+		img: 'https://i.ytimg.com/vi/F_jIFDLu30Y/maxresdefault.jpg',
 		src: 'music-12',
 	},
 	{
 		name: 'Sadqay',
 		artist: 'Aashir Wajahat',
-		img: 'music-13',
+		img: 'https://c.saavncdn.com/290/Sadqay-Hindi-2024-20240201170528-500x500.jpg',
 		src: 'music-13',
 	},
 	{
 		name: 'bikhra',
 		artist: 'Rovalio & Abdul Hannan',
-		img: 'music-14',
+		img: 'https://c.saavncdn.com/973/Bikhra-Hindi-2020-20200124100723-500x500.jpg',
 		src: 'music-14',
 	},
+	{
+		name: 'Janam janam',
+		artist: 'Pritam & Arijit singh',
+		img: 'https://c.saavncdn.com/540/Janam-Janam-Trending-Version-Hindi-2023-20231005185452-500x500.jpg',
+		src: 'music-15',
+	},
+	{
+		name: 'Teri Meri kahaani',
+		artist: 'Pritam & Arijit singh',
+		img: 'https://media.lyricsmint.com/photos/356/terimerikahaani-gabbar-akshay-kareena-1_cover.jpg',
+		src: 'music-16',
+	},
+	{
+		name: 'Pachtaaoge',
+		artist: 'Fateh & Arijit singh',
+		img: 'https://c.saavncdn.com/200/Pachtaoge-From-Jaani-Ve--Hindi-2019-20190823024539-500x500.jpg',
+		src: 'music-17',
+	},
+	{
+		name: 'Kabhi jo badal barse',
+		artist: 'Sachiin & Arijit singh',
+		img: 'https://c.saavncdn.com/899/Kabhi-Jo-Badal-Barse-unplugged-Hindi-2015-500x500.jpg',
+		src: 'music-18',
+	},
+
+	{
+		name: 'Kashmir Main Tu Kanyakumari',
+		artist: 'Arijit Singh, Neeti Mohan, and Sunidhi Chauhan',
+		img: 'https://i1.sndcdn.com/artworks-000076260059-hi4a1q-t500x500.jpg',
+		src: 'music-19',
+	},
+	{
+		name: 'Alone',
+		artist: 'Alan Walker',
+		img: 'https://i.ytimg.com/vi/HhjHYkPQ8F0/sddefault.jpg?v=5e83d4ac',
+		src: 'music-20',
+	},
+	{
+		name: 'Ishq x tera mera rishta',
+		artist: 'MUSTAFA ZAHID',
+		img: 'https://a10.gaanacdn.com/gn_img/albums/4Z9bqo3yQn/9bqZRO1yKy/size_m.jpg',
+		src: 'music-21',
+	},
+	{
+		name: 'Galti se mistake',
+		artist: 'Amit & Arijit singh',
+		img: 'https://a10.gaanacdn.com/gn_img/song/kGxbnw0Ky4/xbn58m2VWy/size_m_1516001759.jpg',
+		src: 'music-22',
+	},
 ];
+allMusic.sort(() => Math.random() - 0.5);
+
 const wrapper = document.querySelector('.wrapper');
 const musicName = document.querySelector('.song-details .name');
 const musicArtist = document.querySelector('.song-details .artist');
@@ -146,7 +197,7 @@ window.onload = () => {
 	load(musicIndex);
 };
 function load(indexNumber) {
-	musicImg.src = `images/${allMusic[indexNumber - 1].img}.jpg `;
+	musicImg.src = `${allMusic[indexNumber - 1].img}`;
 	musicImg.title = allMusic[indexNumber - 1].name;
 	musicName.innerText = allMusic[indexNumber - 1].name;
 	musicArtist.innerText = allMusic[indexNumber - 1].artist;
